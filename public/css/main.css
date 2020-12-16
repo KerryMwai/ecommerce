@@ -7,3 +7,44 @@ body {
     height: 500px;
     padding: 50px 20px;
 }
+
+.slideimg{
+    height: 200px !important;
+    width: 150px !important;
+}
+
+.custom-product{
+    height: 550px !important;
+}
+.pad{
+    margin-top: 20px;
+}
+
+.trending-image{
+    height: 100px;
+}
+.trending-item{
+    float: left;
+    width: 20%;
+}
+
+.trending-wrappper{
+    margin: 30px;
+}
+
+.titlemain{
+    margin-left: 50% !important;
+    text-transform: capitalize;
+    font-size: 32px;
+    padding: 10px 0 0 0;
+    color: rgb(4, 0, 255);
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.underbar{
+    width: 270px;
+    height: 4px;
+    margin-left: 50% !important;
+    background-color: black;
+    margin: 0 0 10px 0;
+}
