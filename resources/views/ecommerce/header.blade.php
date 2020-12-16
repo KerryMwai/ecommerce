@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +15,10 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-info" type="submit">Search</button>
       </form>
       <form class="d-flex">
-        <button class="btn btn-outline-success ml-4" type="submit">Cart(0)</button>
+        <button class="btn btn-outline-info ml-4" type="submit">Cart(0)</button>
       </form>
     </div>
   </div>
