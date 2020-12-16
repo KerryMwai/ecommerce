@@ -10,5 +10,12 @@ class ProductsController extends Controller
     {
         $productdata=Product::all();
         return view('ecommerce.products',['products'=>$productdata]);
+
+    }
+
+    public function detail($id)
+    {
+       $datselected=Product::FindOrFail($id);
+       return view('ecommerce.detail',['productdetails'=>$datselected]);
     }
 }

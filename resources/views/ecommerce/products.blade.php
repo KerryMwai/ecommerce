@@ -20,20 +20,17 @@
                                         <tr>
                                             <th>Category</th>
                                             <th>Description</th>
-                                            <th>Price</th>
                                             
                                         </tr>
                                         <tr>
                                             <td> {{$product['category']}}</td>
-                                            <td>Ksh. {{$product['description']}}</td>
-                                            <td>Ksh. {{$product['price']}}</td>                               
+                                            <td>{{$product['description']}}</td>                               
                                         </tr>
                                     </table>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   
+                    </div>              
                 </div>
             </div>
             @endforeach
@@ -43,14 +40,16 @@
 <h3 class='titlemain'>Trending Products</h3>
 <div class="underbar"></div>
     @foreach($products as $product)
+      <a href="detail/{{$product['id']}}">
         <div class="trending-item" >
-            <div>
-                    <img src="{{$product['gallery']}}" alt="" class="trending-image">
+                <div>
+                        <img src="{{$product['gallery']}}" alt="" class="trending-image">
+                </div>
+                <div class="name">
+                        {{$product['name']}}
+                </div>
             </div>
-            <div class="name">
-                    {{$product['name']}}
-            </div>
-        </div>
+      </a>
     @endforeach
 </div>
 </div>

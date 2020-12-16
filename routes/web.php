@@ -7,3 +7,4 @@ Route::get('/',[UserController::class,'welcome']);
 Route::get('/login',[UserController::class,'index']);
 Route::post('/login',[UserController::class,'login']);
 Route::get('/',[ProductsController::class,'index']);
+Route::get('/detail/{id}',[ProductsController::class,'detail']);

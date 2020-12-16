@@ -48,3 +48,9 @@ body {
     background-color: black;
     margin: 0 0 10px 0;
 }
+
+.imageheight{
+    height: 350px;
+    width: 170px;
+    border-radius: 15px;
+}
