@@ -18,4 +18,11 @@ class ProductsController extends Controller
        $datselected=Product::FindOrFail($id);
        return view('ecommerce.detail',['productdetails'=>$datselected]);
     }
+
+    public function search(Request $req)
+    {
+        $searcheddata=Product::where('name','like','%'.$req->input('querry').'%')->get();
+
+        return view('ecommerce.search',['products'=>$searcheddata]);
+    }
 }

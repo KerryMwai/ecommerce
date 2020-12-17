@@ -13,12 +13,12 @@
           <a class="nav-link" href="#">Links</a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-info" type="submit">Search</button>
+      <form class="d-flex" action="search">
+        <input class="form-control me-2 search-box" name='querry' type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info" type="submit" >Search</button>
       </form>
       <form class="d-flex">
-        <button class="btn btn-outline-info ml-4" type="submit">Cart(0)</button>
+        <button class="btn btn-outline-info ml-4">Cart(0)</button>
       </form>
     </div>
   </div>

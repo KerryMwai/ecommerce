@@ -1,5 +1,5 @@
 
-<div class="card text-center">
+<div class="card text-center marginm">
   <div class="card-header text-center text-info">
   <div class="card-title">
     <h3 class="capitalize">Hello welcome to the best selling sites</h3>

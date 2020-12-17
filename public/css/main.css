@@ -54,3 +54,17 @@ body {
     width: 170px;
     border-radius: 15px;
 }
+
+.search-box{
+    width: 800px !important;
+}
+
+.marginm{
+    min-height: 100vh;
+    margin-top: 500px;
+}
+.bar{
+    height: 4px;
+    width: 270px;
+    margin-bottom: 30px;
+}
